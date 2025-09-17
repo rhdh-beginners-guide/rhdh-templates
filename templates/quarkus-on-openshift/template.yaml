@@ -91,7 +91,6 @@ spec:
         values:
           orgName: ${{ parameters.orgName }}
           appName: ${{ parameters.appName }}
-          port: ${{ parameters.port }}
           domainName: ${{ parameters.domainName }}
           groupId: ${{ parameters.groupId }}
           javaPackage: ${{ parameters.javaPackage }}
@@ -140,6 +139,7 @@ spec:
           registryUrl: ${{ parameters.registryUrl }}
           namespace: ${{ parameters.namespace }}
           repoBranchName: ${{ parameters.repoBranchName }}
+          port: ${{ parameters.port }}
         targetPath: ./gitops/manifests
 
     - id: publish-config
