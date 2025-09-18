@@ -11,3 +11,5 @@ https://github.com/rmarting/rhdh-exercises/blob/main/custom-app-config-gitlab/rh
 https://developers.redhat.com/e-books/developer-portals
 
 https://backstage.io/docs/integrations/github/github-apps
+
+argocd plugin: https://github.com/RoadieHQ/roadie-backstage-plugins/tree/main/plugins/scaffolder-actions/scaffolder-backend-argocd
