@@ -78,8 +78,8 @@ spec:
           type: string
           default: apps-crc.testing
         port:
-          type: integer
-          default: 8080
+          type: string
+          default: '8080'
         
         
   steps:
